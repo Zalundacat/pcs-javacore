@@ -15,10 +15,6 @@ public class TodoServer {
             this.task = task;
         }
 
-        @Override
-        public String toString() {
-            return "type = '" + type + "', task = '" + task + "'";
-        }
     }
 
     private final int port;
